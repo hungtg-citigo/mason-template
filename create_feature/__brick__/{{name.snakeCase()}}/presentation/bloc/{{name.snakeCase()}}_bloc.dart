@@ -1,8 +1,10 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/foundation.dart';
 
+import '../../../../core/enum.dart';
 import '../../data/datasource/{{name.snakeCase()}}_datasource.dart';
 import '../../data/repositories/{{name.snakeCase()}}_repository_impl.dart';
+import '../../domain/entities/{{name.snakeCase()}}_entity.dart';
 import '../../domain/usecases/get_{{name.snakeCase()}}_usecase.dart';
 
 part '{{name.snakeCase()}}_event.dart';
