@@ -1,8 +1,8 @@
 import 'package:dartz/dartz.dart';
-import '../../../core/errors/exception.dart';
-import '../../../core/errors/failure.dart';
+import '../../../../core/errors/exception.dart';
+import '../../../../core/errors/failure.dart';
 import '../datasource/{{name.snakeCase()}}_datasource.dart';
-import '/core/utils/typedef.dart';
+import '../../../../core/utils/typedef.dart';
 import '../../domain/entities/{{name.snakeCase()}}_entity.dart';
 import '../../domain/repositories/{{name.snakeCase()}}_repository.dart';
 

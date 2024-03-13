@@ -1,6 +1,6 @@
-import '/core/utils/typedef.dart';
+import '../../../../core/utils/typedef.dart';
 
-import '../../../core/usecase/usecase.dart';
+import '../../../../core/usecase/usecase.dart';
 import '../entities/{{name.snakeCase()}}_entity.dart';
 import '../repositories/{{name.snakeCase()}}_repository.dart';
 

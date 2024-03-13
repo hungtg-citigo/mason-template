@@ -1,4 +1,4 @@
-import '../../../core/utils/typedef.dart';
+import '../../../../core/utils/typedef.dart';
 import '../entities/{{name.snakeCase()}}_entity.dart';
 
 abstract class {{name.pascalCase()}}Repository {
